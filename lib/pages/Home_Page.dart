@@ -8,11 +8,12 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: Text("Catalog App"),
         ),
         body: Center(
           child: Container(
-            child: Text("Hello!"),
+            child: Text("Byee!"),
           ),
         ),
         drawer: Drawer(),
